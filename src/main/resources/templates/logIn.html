@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Log in</title>
+    <link rel="stylesheet" href="../static/CSS.css">
 </head>
 <body>
-
+<div class="login-container">
 <h1>Log ind</h1>
 
-<p>Navn</p>
-<p>Adgangskode</p>
+<form id="opretForm">
+    <label for="navn">Navn</label>
+    <input type="text" id="navn" name="navn" required><br>
+
+    <label for="kode">Adgangskode</label>
+    <input type="password" id="kode" name="kode" required><br>
+
+    <a href="Forside 2">
+
+    <button type="submit" class="login-btn">Log ind</button>
+
+    </a>
+</div>
 
 </body>
 </html>
