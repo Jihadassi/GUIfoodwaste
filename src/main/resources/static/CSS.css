@@ -10,7 +10,7 @@
 
 /* background font and color*/
 body{
-font-family:"Fira Code", "Courier New", monospace;
+font-family: Helvetica, Arial, sans-serif;
 background-color: #CFE2C4;
     margin: 0;
     padding:0;
