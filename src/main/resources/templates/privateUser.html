@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Log in</title>
+    <title>Create private person</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/CSS.css">
 </head>
 <body>
-<div class="login-container">
-<h1>Log ind</h1>
-
+<div class="container">
+<h2>OPRET SOM PRIVATPERSON</h2>
 <form id="opretForm">
     <label for="navn">Navn</label>
     <input type="text" id="navn" name="navn" required><br>
 
-    <label for="kode">Adgangskode</label>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="kode">Kodeord</label>
     <input type="password" id="kode" name="kode" required><br>
 
     <a th:href="@{/homepage2}">
-
-    <button type="submit" class="login-btn">Log ind</button>
-
+        <button type="submit" class="btn-confirm">Bekræft</button>
     </a>
-
 </form>
 </div>
 </body>
