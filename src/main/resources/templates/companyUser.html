@@ -22,14 +22,11 @@
     <label for="cvr">CVR-Nummer</label>
     <input type="text" id="cvr" name="cvr" required><br>
 
+    <a th:href="@{/homepage2}">
     <button type="submit" class="btn-confirm">Bekræft</button>
+    </a>
+
   </form>
 </div>
-<script>
-  document.getElementById('opretForm').addEventListener('submit',function(e){
-    e.preventDefault();
-    window.location.href = "homepage2.html"
-  });
-</script>
 </body>
 </html>
