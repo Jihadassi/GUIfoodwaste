@@ -1,8 +1,11 @@
 package com.example.guifoodwaste.controller;
 
+import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @Controller
 public class HomeController {
@@ -63,6 +66,30 @@ public class HomeController {
     }
 
 
+    /* LOG IN / CREATE USER - CONTROLLER */
+    @PostMapping("/log-in")
+    public String loginForm(@RequestParam String username, Model model) {
+        model.addAttribute("username", username);
+        return "homepage2";
+    }
+
+    @PostMapping("/log-in-companyUser")
+    public String createCompanyUserForm(@RequestParam String username, Model model) {
+        model.addAttribute("username", username);
+        return "homepage2";
+    }
+
+    @PostMapping("/log-in-organizationUser")
+    public String createOrganizationUserForm(@RequestParam String username, Model model) {
+        model.addAttribute("username", username);
+        return "homepage2";
+    }
+
+    @PostMapping("/log-in-privateUser")
+    public String createPrivateUserForm(@RequestParam String username, Model model) {
+        model.addAttribute("username", username);
+        return "homepage2";
+    }
 
 
 
@@ -136,5 +163,4 @@ Desuden skal alle 3 have mulighed for at gå tilbage til forsiden?
 
 
 */
-
 }
