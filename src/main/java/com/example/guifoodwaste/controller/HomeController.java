@@ -92,6 +92,19 @@ public class HomeController {
     }
 
 
+    @GetMapping("/reg-donation")
+    public String createDonationPage(){
+        return "createDonation";
+    }
+
+    @PostMapping("/reg-donation")
+    public String createdDonationPage(){
+        return "confirmation";
+    }
+
+
+
+
 
 
 /*
@@ -143,15 +156,7 @@ Desuden skal alle 3 have mulighed for at gå tilbage til forsiden?
     return "unlimitedDonations";
     }
 
-    @GetMapping("/reg-donation")
-    public String createDonationPage(){
-    return "createDonation";
-    }
 
-    @PostMapping("/reg-donation")
-    public String createdDonationPage(){
-    return "confirmation";
-    }
 
     @GetMapping("/confirmation")
     public String confirmationPage(){
@@ -163,4 +168,5 @@ Desuden skal alle 3 have mulighed for at gå tilbage til forsiden?
 
 
 */
+
 }
