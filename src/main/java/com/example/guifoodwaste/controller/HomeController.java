@@ -99,6 +99,10 @@ public class HomeController {
     }
 
 
+    @GetMapping("/about-us")
+    public String aboutUsPage(){
+        return "OmKonceptet";
+    }
 
 
 
@@ -132,10 +136,7 @@ Desuden skal alle 3 have mulighed for at gå tilbage til forsiden?
 
     Mangler:
 
-    @GetMapping("/about-us")
-    public String aboutUsPage(){
-    return "aboutUs";
-    }
+
 
     @GetMapping("/about-food-waste")
     public String aboutFoodWastePage(){

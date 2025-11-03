@@ -137,13 +137,14 @@ text {
 /* Wrapper fills remaining vertical space */
 /* wrapper1: outer background / spacing — avoid large padding */
 .wrapper1 {
-    flex: 1;
+    flex: 1 auto;
     box-sizing: border-box;
     width: 85%;
-    margin: 100px auto 0;
+    margin: 100px auto;
+    margin-top: 170px;
     background-color: #AAA297;
     position: relative;
-    padding: 20px; /* small padding instead of 600px */
+    padding: 100px; /* small padding instead of 600px */
     border: 15px solid #2C3424;
     border-radius: 30px;
 }
@@ -179,20 +180,21 @@ text {
 }
 
 .small-wrapper-text-style{
+    margin-left: 20px;
+    margin-right: 20px;
     box-sizing: border-box;   /* include padding in width */
     max-width: 30ch;          /* shorter lines (≈30 characters per line) */
     width: auto;
-    margin: 0 auto;
     padding: 5px;
 
     color: #2C3424;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;          /* reduce this slightly to fit more lines if needed */
+    font-size: 24px;          /* reduce this slightly to fit more lines if needed */
     line-height: 1.5;         /* slightly larger line-height improves legibility and gives more vertical spacing */
 
-    text-align: justify;
+    text-align: center;
     -moz-text-align-last: justify;
-    text-align-last: justify; /* justify the last line in modern browsers */
+    text-align-last: center; /* justify the last line in modern browsers */
     text-justify: inter-word;
 
     -webkit-hyphens: auto;    /* enable hyphenation to reduce large gaps */
@@ -342,19 +344,20 @@ body.create-user-page {
     transform: translateY(-2px);
 }
 
-.create-user-page .site-footer {
+.site-footer {
     background-color: #AAA297;
     text-align: center;
     padding: 1rem;
+    font-size: 24px;
 }
 
-.create-user-page .site-footer a {
+.site-footer a {
     color: #2C3424;
     text-decoration: none;
     font-weight: 600;
 }
 
-.create-user-page .site-footer a:hover {
+.site-footer a:hover {
     text-decoration: underline;
 }
 
@@ -545,9 +548,35 @@ body.create-user-page {
     background-color: #2C3424;
     color: #D9CFC3;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 24px;
     border: none;
     border-radius: 15px;
     cursor: pointer;
 }
 
+.concept-text-design{
+    margin-top: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;   /* include padding in width */
+    width: auto;
+    padding: 5px;
+
+    color: #2C3424;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;          /* reduce this slightly to fit more lines if needed */
+    line-height: 1.5;         /* slightly larger line-height improves legibility and gives more vertical spacing */
+
+    text-align: -webkit-left;
+    -moz-text-align-last: left;
+    text-align-last: left; /* justify the last line in modern browsers */
+    text-justify: inter-word;
+
+    -webkit-hyphens: auto;    /* enable hyphenation to reduce large gaps */
+    -ms-hyphens: auto;
+    hyphens: auto;
+
+    /* avoid aggressive breaking that can ruin justification */
+    word-break: normal;
+    overflow-wrap: break-word;
+}
