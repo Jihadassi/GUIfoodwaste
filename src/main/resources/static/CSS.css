@@ -1,6 +1,10 @@
 /* style.css */
 
 /* Den Grønne Avis- style class*/
+html, body {
+    overflow-x: hidden;
+}
+
 .title-style{
     font-size: 1000px;
     text-align: center;
@@ -124,10 +128,10 @@ text {
     flex: 1;
     box-sizing: border-box;
     width: 85%;
-    margin: 300px auto 0;
+    margin: 100px auto 0;
     background-color: #AAA297;
     position: relative;
-    padding: 100px; /* small padding instead of 600px */
+    padding: 20px; /* small padding instead of 600px */
     border: 15px solid #2C3424;
     border-radius: 30px;
 }
