@@ -476,6 +476,69 @@ body.create-user-page {
 
 
 
+/*
+Drop down menu for forside 2
+ */
+
+.homepage-two .topbar {
+    background-color: #AAA297;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.homepage-two .menu-container {
+    position: relative;
+}
+
+.homepage-two .menu-button {
+    background-color: #2C3424;
+    color: #E8E4E2;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+
+    margin-left: 0.5rem;
+}
+
+.homepage-two .menu-button:hover {
+    background-color: #768064;
+}
+
+.homepage-two .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #E8E4E2;
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.homepage-two .dropdown-content a {
+    color: #2C3424;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.homepage-two .dropdown-content a:hover {
+    background-color: #CFE2C4;
+}
+
+.homepage-two .menu-container:hover .dropdown-content {
+    display: block;
+}
+
+
 
 /* noget andet?: */
 

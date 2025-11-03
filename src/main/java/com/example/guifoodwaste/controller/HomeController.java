@@ -103,6 +103,17 @@ public class HomeController {
     public String aboutUsPage(){
         return "OmKonceptet";
     }
+    @GetMapping("/limited-donations")
+    public String limitedDonationPage(){
+        return "restrictedPosts";
+    }
+
+    @GetMapping("/unlimited-donations")
+    public String unlimitedDonationPage(){
+        return "activePosts";
+    }
+
+
 
 
 
@@ -136,7 +147,10 @@ Desuden skal alle 3 have mulighed for at gå tilbage til forsiden?
 
     Mangler:
 
-
+    @GetMapping("/about-us")
+    public String aboutUsPage(){
+    return "aboutUs";
+    }
 
     @GetMapping("/about-food-waste")
     public String aboutFoodWastePage(){
