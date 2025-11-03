@@ -3,24 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Log in</title>
-    <link rel="stylesheet" href="../static/CSS.css">
+    <link rel="stylesheet" href="/CSS.css">
 </head>
 <body>
 <div class="login-container">
 <h1>Log ind</h1>
 
-<form id="opretForm">
+<form action="/log-in" method="post">
     <label for="navn">Navn</label>
-    <input type="text" id="navn" name="navn" required><br>
+    <input type="text" id="navn" name="username" required><br>
 
     <label for="kode">Adgangskode</label>
     <input type="password" id="kode" name="kode" required><br>
 
-    <a th:href="@{/homepage2}">
-
     <button type="submit" class="login-btn">Log ind</button>
-
-    </a>
 
 </form>
 </div>
