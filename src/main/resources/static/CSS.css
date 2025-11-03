@@ -156,11 +156,38 @@ text {
     display: grid;
     place-items: center;
     font-size: 24px;
-    border: 15px solid #2C3424;
+    border: 5px solid #2C3424;
     padding: 12px;
     margin-top: -230px;
     border-radius: 30px;
 }
+
+.small-wrapper-text-style{
+    box-sizing: border-box;   /* include padding in width */
+    max-width: 30ch;          /* shorter lines (≈30 characters per line) */
+    width: auto;
+    margin: 0 auto;
+    padding: 5px;
+
+    color: #2C3424;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;          /* reduce this slightly to fit more lines if needed */
+    line-height: 1.5;         /* slightly larger line-height improves legibility and gives more vertical spacing */
+
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify; /* justify the last line in modern browsers */
+    text-justify: inter-word;
+
+    -webkit-hyphens: auto;    /* enable hyphenation to reduce large gaps */
+    -ms-hyphens: auto;
+    hyphens: auto;
+
+    /* avoid aggressive breaking that can ruin justification */
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
 
 
 /* circle behind logo */
@@ -426,3 +453,20 @@ body.create-user-page {
     line-height: 20px;
     color: #2C3424;
 }
+
+
+
+/* button styles (anchor used as button) */
+.button-design {
+    margin-bottom: 30px;
+    width: 80%;
+    text-align: center;
+    background-color: #2C3424;
+    color: #D9CFC3;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
