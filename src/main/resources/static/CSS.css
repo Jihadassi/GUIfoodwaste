@@ -376,5 +376,53 @@ body.create-user-page {
     display: block;
 }
 
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 50px;
+    margin-top: 100px;
+}
 
+.post-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #D9CFC3;
+    border: 10px solid #2C3424;
+    border-radius: 30px;
+    padding: 25px;
+    color: #2C3424;
+    font-size: 18px;
+}
 
+.post-card:hover{
+    transform: translateY(-2px);
+}
+
+.post-titel{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2C3424;
+}
+
+.post-type{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.post-location{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.post-description{
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C3424;
+}
