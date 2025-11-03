@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opret donation</title>
+  <link rel="stylesheet" href="/CSS.css"
+</head>
+
+<nav class="topbar">
+  <div class="menu-container">
+    <button class="menu-button">☰ Menu</button>
+    <div class="dropdown-content">
+      <a href="/homepage1">Forside</a>
+      <a href="/login">Log ind</a>
+      <a href="/reg-user">Opret bruger</a>
+      <a href="/limited-donations">Se donationer</a>
+
+    </div>
+  </div>
+</nav>
+
+<body class="create-donation-page">
+
+<header class="site-header">
+  <h1>Opret donation</h1>
+  <p>Gør en forskel og giv din overskydende mad væk her</p>
+</header>
+
+<main class="form-section">
+  <form action="/create-donation" method="post" enctype="multipart/form-data">
+
+    <label for="title">Tilføj en titel</label>
+    <input type="text" id="title" name="description" row="5" placeholder="Skriv en kort beskrivelse af hvad du donerer">
+
+    <label for="description">Beskrivelse:</label>
+    <textarea id="description" name="description" row="5" placeholder="Skriv en kort beskrivelse af hvad du vil donerer"></textarea>
+
+  </form>
+</main>
+
+</body>
+</html>

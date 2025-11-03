@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../static/CSS.css">
+    <link rel="stylesheet" href="/CSS.css">
     <meta charset="UTF-8">
     <title>Homepage1</title>
 </head>
 
 <body>
+
+<nav class="topbar">
+    <div class="menu-container">
+        <button class="menu-button">☰ Menu</button>
+        <div class="dropdown-content">
+            <a href="/homepage1">Forside</a>
+            <a href="/login">Log ind</a>
+            <a href="/reg-user">Opret bruger</a>
+            <a href="/limited-donations">Se donationer</a>
+
+        </div>
+    </div>
+</nav>
 
 <div class="background-blur"></div>
 
@@ -37,19 +50,19 @@
 
         <div class="small-wrapper">
             <p class="small-wrapper-text-style"> Log ind og bliv en del af fællesskabet hos Den Grønne Avis. Som medlem får du fuld adgang til vores artikler, masser af inspiration til en grønnere og mere bæredygtig hverdag samt eksklusive fordele og tilbud kun for abonnenter.</p>
-            <button class="button-design" type="button" onclick="location.href='http://localhost:8080/'">LOG IND</button>
+            <a class="button-design" type="button" href="/login">LOG IND</a>
         </div>
 
 
         <div class="small-wrapper">
             <p class="small-wrapper-text-style"> Er du endnu ikke medlem af vores familie? Opret din bruger her og bliv en del af vores fællesskab, hvor du får adgang til spændende indhold, nyheder, inspiration og eksklusive fordele, der kun er tilgængelige for vores medlemmer.</p>
-            <button class="button-design" type="button" onclick="location.href='http://localhost:8080/'">OPRET BRUGER</button>
+            <a class="button-design" type="button" href="/reg-user">OPRET BRUGER</a>
         </div>
 
 
         <div class="small-wrapper">
             <p class="small-wrapper-text-style" lang="da">Interesseret i konceptet? Se alle vores aktive donationer, udforsk de mange muligheder nærmere, læs om de forskellige formål og initiativer, og beslut dig derefter, om der er noget, der virkelig frister og passer perfekt til dine interesser og værdier.</p>
-            <button class="button-design" type="button" onclick="location.href='http://localhost:8080/'">AKTIVE DONATIONER</button>
+            <a class="button-design" type="button" href="/limited-donations">AKTIVE DONATIONER</a>
         </div>
     </div>
 </div>
