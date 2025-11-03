@@ -40,10 +40,6 @@ public class HomeController {
         return "logIn";
     }
 
-    @PostMapping("/login")
-    public String loggedInPage(){
-        return "homepage2";
-    }
 
     /* Mangler html sider for:
 
