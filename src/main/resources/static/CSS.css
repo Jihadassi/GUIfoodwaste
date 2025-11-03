@@ -150,17 +150,13 @@ text {
 }
 
 
-
 .container {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: nowrap;
-    max-width: 1400px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    width: 100%;
 }
-
 
 .small-wrapper {
     box-sizing: border-box;
@@ -172,7 +168,6 @@ text {
     align-items: center;
     font-size: 24px;
     border: 5px solid #2C3424;
-    /*padding: 12px;*/
     border-radius: 30px;
     margin-top: -450px;
 }
