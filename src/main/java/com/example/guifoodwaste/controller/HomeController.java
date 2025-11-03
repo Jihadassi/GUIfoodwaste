@@ -95,7 +95,7 @@ public class HomeController {
 
     @PostMapping("/reg-donation")
     public String createdDonationPage(){
-        return "confirmation";
+        return "confirmPage";
     }
 
 
