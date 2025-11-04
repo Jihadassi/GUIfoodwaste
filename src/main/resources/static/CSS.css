@@ -278,108 +278,7 @@ text {
 }
 
 
-/*  createUser layout:  */
-
-body.create-user-page {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: #E8E4E2;
-    color: #2C1310;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.create-user-page .site-header {
-    background-color: #E1C99E;
-    color: #2C1310;
-    text-align: center;
-    padding: 2rem 1rem;
-    border-bottom: 4px solid #932C04;
-    border-left: 4px solid #932C04;
-    border-right: 4px solid #932C04;
-}
-
-.create-user-page .site-header h1 {
-    margin: 0 0 0.5rem 0;
-    font-size: 2.2rem;
-    letter-spacing: 1px;
-}
-
-.create-user-page .site-header p {
-    margin: 0;
-    font-size: 1rem;
-    opacity: 0.9;
-}
-
-.create-user-page .choose-user-type {
-    flex: 1;
-    display: grid;
-    gap: 1.5rem;
-    padding: 2rem;
-    max-width: 1100px;
-    margin: 2rem auto 3rem auto;
-}
-
-@media (min-width: 768px){
-    .create-user-page .choose-user-type {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-.create-user-page .user-type-card{
-    background-color: #E1C99E;
-    border: 2px solid #932C04;
-    border-radius: 14px;
-    padding: 1.5rem;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-    min-height:100px;
-    max-height: 200px;
-
-}
-
-.create-user-page .user-type-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
-}
-
-.create-user-page .user-type-card h2 {
-    text-align: center;
-    font-size: 1.3rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-
-.create-user-page .user-type-card p {
-    font-size: 1rem;
-    margin: 0;
-    color: #2C3424;
-    opacity: 0.9;
-}
-
-.create-user-page .button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background-color: #2C1310;
-    color: #E8E4E2;
-    text-decoration: none;
-    border-radius: 999px;
-    font-weight: 600;
-    text-align: center;
-    transition: background-color 0.2s ease, transform 0.1s ease;
-}
-
-.create-user-page .button:hover {
-    background-color: #C4751C;
-    transform: translateY(-2px);
-}
+/* site-footer: */
 
 .site-footer {
     background-color: #E1C99E;
@@ -401,40 +300,8 @@ body.create-user-page {
 }
 
 
-/* Topbar med menu: */
+/* Topbar med menu for alle: */
 
-
-.create-user-page .menu-button:hover {
-    background-color: #932C04;
-}
-
-.create-user-page .dropdown-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: #989382;
-    min-width: 180px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-.create-user-page .dropdown-content a {
-    color: #2C1310;
-    padding: 0.75rem 1rem;
-    text-decoration: none;
-    display: block;
-}
-
-.create-user-page .dropdown-content a:hover {
-    background-color: #932C04;
-}
-
-.create-user-page .menu-container:hover .dropdown-content {
-    display: block;
-}
-
-/*Drop down menu for alle: */
 
 .topbar {
     background-color: #AB7743;
@@ -494,69 +361,9 @@ body.create-user-page {
     display: block;
 }
 
+/* Slut på dropDown menuen */
 
 
-/*
-Drop down menu for forside 2
- */
-
-.homepage-two .topbar {
-    background-color: #AAA297;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-.homepage-two .menu-container {
-    position: relative;
-}
-
-.homepage-two .menu-button {
-    background-color: #2C1310;
-    color: #E8E4E2;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 1rem;
-
-    margin-left: 0.5rem;
-}
-
-.homepage-two .menu-button:hover {
-    background-color: #932C04;
-}
-
-.homepage-two .dropdown-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: #E8E4E2;
-    min-width: 180px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-.homepage-two .dropdown-content a {
-    color: #2C1310;
-    padding: 0.75rem 1rem;
-    text-decoration: none;
-    display: block;
-}
-
-.homepage-two .dropdown-content a:hover {
-    background-color: #E1C99E;
-}
-
-.homepage-two .menu-container:hover .dropdown-content {
-    display: block;
-}
 
 
 
@@ -706,13 +513,7 @@ Drop down menu for forside 2
 
 /* css for createDonation.html */
 
-.create-user-page {
-    background: #E8E4E2;
-    color: #2C1310;
-    font-family: Helvetica, Arial, sans-serif;
-    min-height: 100vh;
-    display: flex; flex-direction: column; align-items: center;
-}
+
 
 /*.create-donation-page .site-header{*/
 /*    width: 100%;*/
@@ -817,6 +618,10 @@ Drop down menu for forside 2
     text-decoration: underline;
 }
 
+/*
+Herfra til ekstra var udkommenteret:
+ */
+
 /*.create-titel {*/
 /*    display: flex;*/
 /*    justify-content: center;   !* vandret *!*/
@@ -855,9 +660,9 @@ Drop down menu for forside 2
 /*}*/
 
 
-/*
-Ekstra:
- */
+
+/*Ekstra:  */
+
 /*.create-donation-page .choose-user-type {*/
 /*    display: flex;*/
 /*    justify-content: center;*/
@@ -894,9 +699,112 @@ Ekstra:
 /*    cursor: pointer;*/
 /*}*/
 
+
+/* Tekst på forside2: */
+
 .welcome-text{
     font-size: 150px;
     text-align: center;
     color: #2C1310;
     text-shadow: 4px 4px 8px #ffffff;
 }
+
+/*  createUser layout:  */
+
+body.create-user-page{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #E1C99E;   /* ny baggrund som resten */
+    color: #2C1310;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-user-page .site-header {
+    background-color: #E1C99E;
+    color: #2C1310;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 4px solid #932C04;
+    border-left: 4px solid #932C04;
+    border-right: 4px solid #932C04;
+}
+
+.create-user-page .site-header h1 {
+    margin: 0 0 .5rem 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+.create-user-page .site-header p {
+    margin: 0;
+    font-size: 1rem;
+    opacity: .9;
+}
+
+.create-user-page .choose-user-type {
+    flex: 1;
+    display: grid;
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 1100px;
+    margin: 2rem auto 3rem auto;
+}
+@media (min-width: 640px){
+    .create-user-page .choose-user-type { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 960px){
+    .create-user-page .choose-user-type { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+.create-user-page .user-type-card {
+    background-color: #F7FFF2;
+    border: 2px solid #2C1310;     /* mørk kant som resten */
+    border-radius: 14px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .75rem;
+    transition: transform .2s ease, box-shadow .2s ease;
+    min-height: 240px;             /* ingen max-height der klemmer */
+}
+.create-user-page .user-type-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+.create-user-page .user-type-card h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0 0 .5rem 0;
+}
+.create-user-page .user-type-card p {
+    font-size: 1rem;
+    margin: 0;
+    color: #2C1310;
+    opacity: .9;
+}
+
+.create-user-page .button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .75rem 1.5rem;
+    background-color: #2C1310;
+    color: #E8E4E2;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color .2s ease, transform .1s ease;
+}
+.create-user-page .button:hover {
+    background-color: #932C04;
+    transform: translateY(-2px);
+}
+
+
+
+
