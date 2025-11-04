@@ -98,6 +98,13 @@ public class HomeController {
         return "confirmPage";
     }
 
+    @GetMapping("/confirmation")
+    public String confirmationPage(){
+        return "confirmPage";
+    }
+
+
+
 
     @GetMapping("/about-us")
     public String aboutUsPage(){
@@ -112,6 +119,11 @@ public class HomeController {
     public String unlimitedDonationPage(){
         return "activePosts";
     }
+
+
+
+
+
 
 
 
@@ -147,32 +159,15 @@ Desuden skal alle 3 have mulighed for at gå tilbage til forsiden?
 
     Mangler:
 
-    @GetMapping("/about-us")
-    public String aboutUsPage(){
-    return "aboutUs";
-    }
+
 
     @GetMapping("/about-food-waste")
     public String aboutFoodWastePage(){
     return "aboutFoodWaste";
     }
 
-    @GetMapping("/limited-donations")
-    public String limitedDonationPage(){
-    return "limitedDonations";
-    }
-
-    @GetMapping("/unlimited-donations")
-    public String unlimitedDonationPage(){
-    return "unlimitedDonations";
-    }
 
 
-
-    @GetMapping("/confirmation")
-    public String confirmationPage(){
-    return "confirmation";
-    }
 
 
 
