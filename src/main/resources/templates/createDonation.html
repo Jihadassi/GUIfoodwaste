@@ -7,7 +7,7 @@
 </head>
 
 
-<body class="create-donation-page">
+<body>
 
 <nav class="topbar">
   <div class="menu-container">
@@ -22,39 +22,30 @@
 </nav>
 
 
-
-<header class="site-header">
-  <h1>Opret donation</h1>
-  <p>Gør en forskel og giv din overskydende mad væk her</p>
+<header class="create-donation-text">
+<h1>Opret donation</h1>
+<h2>Gør en forskel og giv din overskydende mad væk her</h2>
 </header>
 
 
 
+<div class="donation-opt">
+    <form action="/reg-donation" method="post" enctype="multipart/form-data">
 
+      <label class="create-titel" for="title">Tilføj en titel</label>
+      <input class="titel-input" id="title" name="title" type="text" placeholder="Skriv en overskrift til din donation" required>
 
+      <label for="description" class="create-description">Beskrivelse:</label>
+      <textarea class="description-input" id="description" name="description" rows="5" placeholder="Skriv en kort beskrivelse af hvad du vil donerer"></textarea>
 
-<main class="choose-user-type">
-  <section class="user-type-card" style="max-width: 800px; width: 100%">
-
-    <h2 style="margin-top:0;">Opret donation</h2>
-    <p>Gør en forskel og giv din overskydende mad væk her</p>
-
-    <form action="/create-donation" method="post" enctype="multipart/form-data">
-
-      <label for="title">Tilføj en titel</label>
-      <input id="title" name="title" type="text" placeholder="Skriv en overskrift til din donation" required>
-
-      <label for="description">Beskrivelse:</label>
-      <textarea id="description" name="description" rows="5" placeholder="Skriv en kort beskrivelse af hvad du vil donerer"></textarea>
-
-      <a class="login-btn" type="button" href="/confirmation">Publicér</a>
+      <button type="submit" class="login-btn">Publicér</button>
 
     </form>
-  </section>
-</main>
+</div>
+
 
 <footer class="site-footer">
-  <a class="link-back" href="/home">Tilbage til forsiden</a>
+  <a class="link-back-a" href="/home">Tilbage til forsiden</a>
 </footer>
 </body>
 </html>
