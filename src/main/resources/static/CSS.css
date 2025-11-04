@@ -144,60 +144,53 @@ text {
     margin-top: 170px;
     background-color: #AAA297;
     position: relative;
-    padding: 100px; /* small padding instead of 600px */
+    padding: 100px;
     border: 15px solid #2C3424;
     border-radius: 30px;
 }
 
 
-
 .container {
-    display:flex;
-    flex-direction:column;
-    gap:20px;
-    align-items: center;
-    width: 100%;
-    margin: 100px auto;
-    padding: 0;
+    display: flex;
     justify-content: center;
+    gap: 20px;
     flex-wrap: nowrap;
-    border: 5px;
+    width: 100%;
 }
-
 
 .small-wrapper {
     box-sizing: border-box;
-    height: 600px;
     width: 400px;
     background-color: #D9CFC3;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
     border: 5px solid #2C3424;
-    padding: 12px;
-    margin-top: -230px;
     border-radius: 30px;
+    margin-top: -450px;
 }
 
 .small-wrapper-text-style{
     margin-left: 20px;
     margin-right: 20px;
-    box-sizing: border-box;   /* include padding in width */
-    max-width: 30ch;          /* shorter lines (≈30 characters per line) */
+    box-sizing: border-box;
+    max-width: 30ch;
     width: auto;
     padding: 5px;
 
     color: #2C3424;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;          /* reduce this slightly to fit more lines if needed */
-    line-height: 1.5;         /* slightly larger line-height improves legibility and gives more vertical spacing */
+    font-size: 24px;
+    line-height: 1.5;
 
     text-align: center;
     -moz-text-align-last: justify;
-    text-align-last: center; /* justify the last line in modern browsers */
+    text-align-last: center;
     text-justify: inter-word;
 
-    -webkit-hyphens: auto;    /* enable hyphenation to reduce large gaps */
+    -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
 
@@ -234,10 +227,9 @@ text {
 .h1-topText{
     font-size: 120px;
     color: #2C3424;
-    margin: -500px;
+    margin-top: -90px;
     font-family: "Schoolbell", sans-serif;
     font-weight: bold;
-    padding-top:500px;
     text-align: center;
     padding-bottom: 400px;
 }
@@ -554,6 +546,54 @@ body.create-user-page {
     cursor: pointer;
 }
 
+/* CONFIRM PAGE SYLING */
+.confirm-message1{
+    display: flex;
+    justify-content: center;   /* vandret */
+    margin-top: 150px;
+    font-size: 38px;
+}
+
+.confirm-message2{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;   /* vandret */
+    margin-top: 75px;
+}
+
+.confirm-option{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.confirm-option1{
+    margin-right: 40px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #2C3424;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.confirm-option2 {
+    margin-left: 40px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #2C3424;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
 .concept-text-design{
     margin-top: 170px;
     margin-left: 20px;
