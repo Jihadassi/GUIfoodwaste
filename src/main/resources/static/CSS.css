@@ -23,14 +23,38 @@ html, body {
     width: 350px;
     font-size: 24px;
 }
+.containerUser form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    background-color: #D9CFC3;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    font-size: 24px;
+}
 .container h2{
+    margin-bottom: auto;
     text-align: center;
     margin-top: 50px;
     font-size: 48px;
     color: #fff;
     border-radius: 15px;
     background-color: #AAA297;
-    border-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.containerUser h2{
+    margin-bottom: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 48px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #AAA297;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 25px;
@@ -43,11 +67,17 @@ html, body {
     font-size: 24px;
     border-radius: 8px;
 }
+.containerUser form input{
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 8px;
+}
 
 .btn-confirm{
     margin-top: 15px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 24px;
     border-radius: 8px;
 }
 
@@ -156,7 +186,20 @@ text {
     justify-content: center;
     gap: 20px;
     flex-wrap: nowrap;
-    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.containerUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .small-wrapper {
@@ -170,7 +213,6 @@ text {
     font-size: 24px;
     border: 5px solid #2C3424;
     border-radius: 30px;
-    margin-top: -450px;
 }
 
 .small-wrapper-text-style{
@@ -228,11 +270,11 @@ text {
 .h1-topText{
     font-size: 120px;
     color: #2C3424;
-    margin-top: -90px;
+    margin-top: -60px;
     font-family: "Schoolbell", sans-serif;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 400px;
+    margin-bottom: 20px;
 }
 
 
@@ -550,7 +592,7 @@ Drop down menu for forside 2
     justify-content: center;
     align-items: stretch;
     padding: 50px;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .post-card{
