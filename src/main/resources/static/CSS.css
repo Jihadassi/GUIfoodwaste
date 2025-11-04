@@ -8,7 +8,7 @@ html, body {
 .title-style{
     font-size: 1000px;
     text-align: center;
-    color: #2C3424;
+    color: #2C1310;
     text-shadow: 4px 4px 8px #ffffff;
 }
 
@@ -115,13 +115,13 @@ html, body {
 }
 
 .login-btn:hover{
-    background: #CFE2C4;
+    background: #E1C99E;
 }
 
 /* background font and color*/
 body{
 font-family: Helvetica, Arial, sans-serif;
-background-color: #CFE2C4;
+background-color: #E1C99E;
     margin: 0;
     padding:0;
     height: 100%;
@@ -173,10 +173,10 @@ text {
     width: 85%;
     margin: 100px auto;
     margin-top: 170px;
-    background-color: #AAA297;
+    background-color: #E1C99E;
     position: relative;
     padding: 100px;
-    border: 15px solid #2C3424;
+    border: 15px solid #2C1310;
     border-radius: 30px;
 }
 
@@ -205,13 +205,13 @@ text {
 .small-wrapper {
     box-sizing: border-box;
     width: 400px;
-    background-color: #D9CFC3;
+    background-color: #F7FFF2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    border: 5px solid #2C3424;
+    border: 5px solid #2C1310;
     border-radius: 30px;
 }
 
@@ -223,7 +223,7 @@ text {
     width: auto;
     padding: 5px;
 
-    color: #2C3424;
+    color: #2C1310;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     line-height: 1.5;
@@ -269,8 +269,8 @@ text {
 /* top text on homepage */
 .h1-topText{
     font-size: 120px;
-    color: #2C3424;
     margin-top: -60px;
+    color: #2C1310;
     font-family: "Schoolbell", sans-serif;
     font-weight: bold;
     text-align: center;
@@ -283,7 +283,7 @@ text {
 body.create-user-page {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #E8E4E2;
-    color: #2C3424;
+    color: #2C1310;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -292,11 +292,11 @@ body.create-user-page {
 }
 
 .create-user-page .site-header {
-    background-color: #CFE2C4;
-    color: #2C3424;
+    background-color: #E1C99E;
+    color: #2C1310;
     text-align: center;
     padding: 2rem 1rem;
-    border-bottom: 4px solid #768064;
+    border-bottom: 4px solid #932C04;
 }
 
 .create-user-page .site-header h1 {
@@ -327,8 +327,8 @@ body.create-user-page {
 }
 
 .create-user-page .user-type-card{
-    background-color: #CFE2C4;
-    border: 2px solid #AAA297;
+    background-color: #E1C99E;
+    border: 2px solid #932C04;
     border-radius: 14px;
     padding: 1.5rem;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -365,7 +365,7 @@ body.create-user-page {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: #2C3424;
+    background-color: #2C1310;
     color: #E8E4E2;
     text-decoration: none;
     border-radius: 999px;
@@ -375,19 +375,19 @@ body.create-user-page {
 }
 
 .create-user-page .button:hover {
-    background-color: #768064;
+    background-color: #C4751C;
     transform: translateY(-2px);
 }
 
 .site-footer {
-    background-color: #AAA297;
+    background-color: #E1C99E;
     text-align: center;
     padding: 1rem;
     font-size: 24px;
 }
 
 .site-footer a {
-    color: #2C3424;
+    color: #2C1310;
     text-decoration: none;
     font-weight: 600;
 }
@@ -400,7 +400,7 @@ body.create-user-page {
 /* Topbar med menu: */
 
 .create-user-page .topbar {
-    background-color: #AAA297;
+    background-color: #E1C99E;
     padding: 1rem 2rem;
     display: flex;
     justify-content: flex-start;
@@ -415,7 +415,7 @@ body.create-user-page {
 }
 
 .create-user-page .menu-button {
-    background-color: #2C3424;
+    background-color: #2C1310;
     color: #E8E4E2;
     border: none;
     padding: 0.6rem 1.2rem;
@@ -428,14 +428,14 @@ body.create-user-page {
 }
 
 .create-user-page .menu-button:hover {
-    background-color: #768064;
+    background-color: #932C04;
 }
 
 .create-user-page .dropdown-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color: #E8E4E2;
+    background-color: #989382;
     min-width: 180px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     border-radius: 6px;
@@ -443,14 +443,14 @@ body.create-user-page {
 }
 
 .create-user-page .dropdown-content a {
-    color: #2C3424;
+    color: #2C1310;
     padding: 0.75rem 1rem;
     text-decoration: none;
     display: block;
 }
 
 .create-user-page .dropdown-content a:hover {
-    background-color: #CFE2C4;
+    background-color: #932C04;
 }
 
 .create-user-page .menu-container:hover .dropdown-content {
@@ -460,7 +460,7 @@ body.create-user-page {
 /*Drop down menu for alle: */
 
 .topbar {
-    background-color: #AAA297;
+    background-color: #AB7743;
     padding: 1rem 2rem;
     display: flex;
     justify-content: flex-start;
@@ -475,7 +475,7 @@ body.create-user-page {
 }
 
 .menu-button {
-    background-color: #2C3424;
+    background-color: #2C1310;
     color: #E8E4E2;
     border: none;
     padding: 0.6rem 1.2rem;
@@ -488,7 +488,7 @@ body.create-user-page {
 }
 
 .menu-button:hover {
-    background-color: #768064;
+    background-color: #932C04;
 }
 
 .dropdown-content {
@@ -503,14 +503,14 @@ body.create-user-page {
 }
 
 .dropdown-content a {
-    color: #2C3424;
+    color: #2C1310;
     padding: 0.75rem 1rem;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #CFE2C4;
+    background-color: #932C04;
 }
 
 .menu-container:hover .dropdown-content {
@@ -539,7 +539,7 @@ Drop down menu for forside 2
 }
 
 .homepage-two .menu-button {
-    background-color: #2C3424;
+    background-color: #2C1310;
     color: #E8E4E2;
     border: none;
     padding: 0.6rem 1.2rem;
@@ -552,7 +552,7 @@ Drop down menu for forside 2
 }
 
 .homepage-two .menu-button:hover {
-    background-color: #768064;
+    background-color: #932C04;
 }
 
 .homepage-two .dropdown-content {
@@ -567,14 +567,14 @@ Drop down menu for forside 2
 }
 
 .homepage-two .dropdown-content a {
-    color: #2C3424;
+    color: #2C1310;
     padding: 0.75rem 1rem;
     text-decoration: none;
     display: block;
 }
 
 .homepage-two .dropdown-content a:hover {
-    background-color: #CFE2C4;
+    background-color: #E1C99E;
 }
 
 .homepage-two .menu-container:hover .dropdown-content {
@@ -600,10 +600,10 @@ Drop down menu for forside 2
     flex-direction: column;
     justify-content: space-between;
     background-color: #D9CFC3;
-    border: 6px solid #2C3424;
+    border: 6px solid #2C1310;
     border-radius: 30px;
     padding: 25px;
-    color: #2C3424;
+    color: #2C1310;
     font-size: 18px;
 }
 
@@ -616,7 +616,7 @@ Drop down menu for forside 2
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 10px;
-    color: #2C3424;
+    color: #2C1310;
 }
 
 .post-type{
@@ -633,7 +633,7 @@ Drop down menu for forside 2
 .post-description{
     font-size: 16px;
     line-height: 20px;
-    color: #2C3424;
+    color: #2C1310;
 }
 
 
@@ -643,7 +643,7 @@ Drop down menu for forside 2
     margin-bottom: 30px;
     width: 80%;
     text-align: center;
-    background-color: #2C3424;
+    background-color: #2C1310;
     color: #D9CFC3;
     padding: 10px 20px;
     font-size: 24px;
@@ -678,7 +678,7 @@ Drop down menu for forside 2
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 8px;
-    background-color: #2C3424;
+    background-color: #2C1310;
     color: #ffffff;
     padding: 12px 24px;
     border: none;
@@ -693,7 +693,7 @@ Drop down menu for forside 2
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 8px;
-    background-color: #2C3424;
+    background-color: #2C1310;
     color: #ffffff;
     padding: 12px 24px;
     border: none;
@@ -708,7 +708,7 @@ Drop down menu for forside 2
     width: auto;
     padding: 5px;
 
-    color: #2C3424;
+    color: #2C1310;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;          /* reduce this slightly to fit more lines if needed */
     line-height: 1.5;         /* slightly larger line-height improves legibility and gives more vertical spacing */
@@ -731,7 +731,7 @@ Drop down menu for forside 2
 
 .create-user-page {
     background: #E8E4E2;
-    color: #2C3424;
+    color: #2C1310;
     font-family: Helvetica, Arial, sans-serif;
     min-height: 100vh;
     display: flex; flex-direction: column; align-items: center;
@@ -741,13 +741,13 @@ Drop down menu for forside 2
     width: 100%;
     text-align: center;
     padding: 1.5rem 1rem;
-    background: #CFE2C4;
-    border-bottom: 4px solid #AAA297;
+    background: #E1C99E;
+    border-bottom: 4px solid #D9CFC3;
 }
 
 .form-section {
     width: 90%; max-width: 640px;
-    background: #CFE2C4;
+    background: #D9CFC3;
     margin: 2rem 0;
     padding: 2rem;
     border-radius: 14px;
@@ -771,7 +771,7 @@ Drop down menu for forside 2
 }
 
 .form-section .btn-confirm{
-    background: #2C3424;
+    background: #2C1310;
     color: #E8E4E2;
     border: none;
     border-radius: 999px;
@@ -782,7 +782,7 @@ Drop down menu for forside 2
 }
 
 .form-section .btn-confirm:hover {
-    background: #768064;
+    background: #932C04;
 }
 
 
@@ -810,7 +810,7 @@ Ekstra:
     width: 100%;
     box-sizing: border-box;
     padding: .8rem 1rem;
-    border: 1px solid #AAA297;
+    border: 1px solid #D9CFC3;
     border-radius: 10px;
     background: #F7FFF2;
     font-size: 1rem;
@@ -828,6 +828,6 @@ Ekstra:
 .welcome-text{
     font-size: 150px;
     text-align: center;
-    color: #2C3424;
+    color: #2C1310;
     text-shadow: 4px 4px 8px #ffffff;
 }

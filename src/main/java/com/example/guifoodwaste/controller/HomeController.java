@@ -108,7 +108,7 @@ public class HomeController {
 
     @GetMapping("/about-us")
     public String aboutUsPage(){
-        return "OmKonceptet";
+        return "concept";
     }
     @GetMapping("/limited-donations")
     public String limitedDonationPage(){
