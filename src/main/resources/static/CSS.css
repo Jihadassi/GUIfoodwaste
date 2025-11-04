@@ -9,6 +9,7 @@ html, body {
     font-size: 1000px;
     text-align: center;
     color: #2C3424;
+    text-shadow: 4px 4px 8px #ffffff;
 }
 
 .container form{
@@ -782,3 +783,9 @@ Ekstra:
     cursor: pointer;
 }
 
+.welcome-text{
+    font-size: 150px;
+    text-align: center;
+    color: #2C3424;
+    text-shadow: 4px 4px 8px #ffffff;
+}
