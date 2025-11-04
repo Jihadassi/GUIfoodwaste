@@ -41,10 +41,6 @@ public class HomeController {
     }
 
 
-    /* Mangler html sider for:
-
-     */
-
     @GetMapping("/home")
     public String homepage2(){
         return "homepage2";
@@ -60,7 +56,6 @@ public class HomeController {
         return "homepage2";
 
     }
-
 
     /* LOG IN / CREATE USER - CONTROLLER */
     @PostMapping("/log-in")
@@ -124,57 +119,5 @@ public class HomeController {
     public String aboutFoodWastePage(){
         return "OmMadspild";
     }
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-Skal de 3 entities have forskellige muligheder når de er logget ind? (flere PostMappings)
-
-
-
-Skal tilføjes til privateUser.html, companyUser.html og organizationUser.html
-Så når man bekræfter linker det videre.
-
-Desuden skal alle 3 have mulighed for at gå tilbage til forsiden?
-
-    @PostMapping("/created-private-user")
-    public String createdPrivateUserPage(){
-        return "homepage2";
-    }
-
-    @PostMapping("/created-company-user")
-    public String createdCompanyUserPage(){
-    return "homepage2";
-    }
-
-
-    @PostMapping("/created-organization-user")
-    public String createdOrganizationUserPage(){
-    return "homepage2";
-    }
-
-    Mangler:
-
-
-
-
-
-
-
-
-
-
-
-
-*/
 
 }
