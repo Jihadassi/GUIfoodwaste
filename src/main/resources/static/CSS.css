@@ -403,35 +403,6 @@ body.create-user-page {
 
 /* Topbar med menu: */
 
-.create-user-page .topbar {
-    background-color: #E1C99E;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    width: 100%;
-    border-bottom: solid #932C04;
-}
-
-.create-user-page .menu-container {
-    position: relative;
-}
-
-.create-user-page .menu-button {
-    background-color: #2C1310;
-    color: #E8E4E2;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 1rem;
-
-    margin-left: 0.5rem;
-}
 
 .create-user-page .menu-button:hover {
     background-color: #932C04;
