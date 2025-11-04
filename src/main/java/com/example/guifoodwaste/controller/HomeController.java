@@ -120,6 +120,11 @@ public class HomeController {
         return "activePosts";
     }
 
+    @GetMapping("/about-food-waste")
+    public String aboutFoodWastePage(){
+        return "OmMadspild";
+    }
+
 
 
 
@@ -161,10 +166,7 @@ Desuden skal alle 3 have mulighed for at gå tilbage til forsiden?
 
 
 
-    @GetMapping("/about-food-waste")
-    public String aboutFoodWastePage(){
-    return "aboutFoodWaste";
-    }
+
 
 
 
