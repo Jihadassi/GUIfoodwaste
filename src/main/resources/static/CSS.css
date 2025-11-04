@@ -297,6 +297,8 @@ body.create-user-page {
     text-align: center;
     padding: 2rem 1rem;
     border-bottom: 4px solid #932C04;
+    border-left: 4px solid #932C04;
+    border-right: 4px solid #932C04;
 }
 
 .create-user-page .site-header h1 {
@@ -384,6 +386,8 @@ body.create-user-page {
     text-align: center;
     padding: 1rem;
     font-size: 24px;
+    width: 100%;
+    border-top: solid #932C04;
 }
 
 .site-footer a {
@@ -408,6 +412,8 @@ body.create-user-page {
     position: sticky;
     top: 0;
     z-index: 10;
+    width: 100%;
+    border-bottom: solid #932C04;
 }
 
 .create-user-page .menu-container {
